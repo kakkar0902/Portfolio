@@ -2,6 +2,8 @@
 
 This repository contains a personal portfolio website.
 
+Live site: https://soniakakkar.netlify.app/
+
 ## Run Locally
 
 1. Install dependencies:

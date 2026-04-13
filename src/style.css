@@ -697,6 +697,27 @@ button:focus {
   justify-content: center;
 }
 
+.resume-document {
+  gap: 28px;
+}
+
+.resume-page {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 14px;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+}
+
+.resume-page .react-pdf__Page {
+  box-shadow: none !important;
+}
+
+.resume-page .react-pdf__Page canvas {
+  max-width: 100%;
+  height: auto !important;
+  border-radius: 8px;
+}
+
 .resume-left {
   padding-right: 80px !important;
 }
