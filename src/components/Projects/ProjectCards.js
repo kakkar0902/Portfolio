@@ -1,0 +1,67 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { CgWebsite } from "react-icons/cg";
+import { BsGithub } from "react-icons/bs";
+
+function ProjectCards(props) {
+  return (
+    <Card className="project-card-view">
+      <Card.Img
+        variant="top"
+        src={props.imgPath}
+        alt={props.title}
+        className="project-card-image"
+      />
+      <Card.Body className="project-card-body">
+        <Card.Title className="project-card-title">{props.title}</Card.Title>
+        {props.summary && (
+          <p className="project-card-summary">{props.summary}</p>
+        )}
+        <Card.Text className="project-card-description">
+          {props.description}
+        </Card.Text>
+
+        {props.stack?.length > 0 && (
+          <div className="project-stack">
+            {props.stack.map((item) => (
+              <span key={item} className="project-tag">
+                {item}
+              </span>
+            ))}
+          </div>
+        )}
+
+        {props.highlights?.length > 0 && (
+          <ul className="project-highlights">
+            {props.highlights.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        )}
+
+        <div className="project-card-actions">
+          <Button variant="primary" href={props.ghLink} target="_blank">
+          <BsGithub /> &nbsp;
+          {props.isBlog ? "Blog" : "GitHub"}
+          </Button>
+
+          {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+
+          {!props.isBlog && props.demoLink && (
+            <Button
+              variant="primary"
+              href={props.demoLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              <CgWebsite /> &nbsp;
+              {"Demo"}
+            </Button>
+          )}
+        </div>
+      </Card.Body>
+    </Card>
+  );
+}
+export default ProjectCards;

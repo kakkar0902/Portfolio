@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#151220"/>
+  <rect x="22" y="22" width="1156" height="676" rx="30" fill="url(#bg)"/>
+  <circle cx="996" cy="132" r="122" fill="#FF8F6B" fill-opacity="0.18"/>
+  <circle cx="212" cy="588" r="138" fill="#5BD8C6" fill-opacity="0.14"/>
+  <text x="104" y="154" fill="#FFF7F4" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700">TASK MANAGER</text>
+  <text x="104" y="206" fill="#D5C8D2" font-family="Segoe UI, Arial, sans-serif" font-size="28">Flask app with authentication, protected routes, and task CRUD</text>
+  <rect x="104" y="246" width="132" height="44" rx="22" fill="#3C2846"/>
+  <text x="143" y="275" fill="#FDBB9A" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Flask</text>
+  <rect x="252" y="246" width="138" height="44" rx="22" fill="#3C2846"/>
+  <text x="285" y="275" fill="#98F0E6" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">SQLite</text>
+  <rect x="406" y="246" width="172" height="44" rx="22" fill="#3C2846"/>
+  <text x="441" y="275" fill="#FFD59A" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Auth Guard</text>
+  <rect x="104" y="334" width="444" height="238" rx="26" fill="#1E1728" stroke="#FF8F6B" stroke-opacity="0.36"/>
+  <rect x="142" y="374" width="368" height="52" rx="16" fill="#2A2138"/>
+  <path d="M176 400L198 422L240 380" stroke="#5BD8C6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M276 400H456" stroke="#FFF7F4" stroke-width="12" stroke-linecap="round"/>
+  <rect x="142" y="446" width="368" height="52" rx="16" fill="#2A2138"/>
+  <circle cx="206" cy="472" r="16" stroke="#FF8F6B" stroke-width="8"/>
+  <path d="M276 472H438" stroke="#D7CBD4" stroke-width="12" stroke-linecap="round"/>
+  <rect x="620" y="188" width="468" height="384" rx="28" fill="#1A1523" stroke="#5BD8C6" stroke-opacity="0.4"/>
+  <rect x="660" y="232" width="388" height="52" rx="16" fill="#2A2138"/>
+  <text x="698" y="266" fill="#FFF1EA" font-family="Consolas, monospace" font-size="24">POST /login</text>
+  <rect x="660" y="304" width="388" height="52" rx="16" fill="#2A2138"/>
+  <text x="698" y="338" fill="#FFF1EA" font-family="Consolas, monospace" font-size="24">GET /tasks</text>
+  <rect x="660" y="376" width="388" height="52" rx="16" fill="#2A2138"/>
+  <text x="698" y="410" fill="#FFF1EA" font-family="Consolas, monospace" font-size="24">PUT /tasks/:id</text>
+  <rect x="660" y="448" width="388" height="52" rx="16" fill="#2A2138"/>
+  <text x="698" y="482" fill="#FFF1EA" font-family="Consolas, monospace" font-size="24">DELETE /tasks/:id</text>
+  <defs>
+    <linearGradient id="bg" x1="68" y1="56" x2="1114" y2="666" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1125"/>
+      <stop offset="1" stop-color="#1C1E31"/>
+    </linearGradient>
+  </defs>
+</svg>

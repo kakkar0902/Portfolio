@@ -1,0 +1,34 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="36" fill="#102028"/>
+  <rect x="20" y="20" width="1160" height="680" rx="30" fill="url(#bg)"/>
+  <circle cx="968" cy="138" r="124" fill="#FFB36B" fill-opacity="0.2"/>
+  <circle cx="220" cy="140" r="84" fill="#5DE1C2" fill-opacity="0.14"/>
+  <rect x="92" y="88" width="1016" height="544" rx="28" fill="#152A30" stroke="#E3A667" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="138" y="170" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">SHORELINE WOODWORKS</text>
+  <text x="138" y="218" fill="#B9D1CF" font-family="Segoe UI, Arial, sans-serif" font-size="28">Responsive frontend built from a collaborative Figma prototype</text>
+  <rect x="138" y="266" width="182" height="44" rx="22" fill="#24464D"/>
+  <text x="171" y="295" fill="#9DF0DC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Figma to UI</text>
+  <rect x="334" y="266" width="182" height="44" rx="22" fill="#24464D"/>
+  <text x="360" y="295" fill="#FFD8AC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Responsive</text>
+  <rect x="530" y="266" width="202" height="44" rx="22" fill="#24464D"/>
+  <text x="563" y="295" fill="#F9E18C" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Team Workflow</text>
+  <rect x="138" y="348" width="434" height="220" rx="24" fill="#0F1E23" stroke="#5DE1C2" stroke-opacity="0.35"/>
+  <rect x="168" y="378" width="374" height="160" rx="18" fill="#1B343B"/>
+  <rect x="192" y="402" width="180" height="112" rx="14" fill="#E7A86E" fill-opacity="0.9"/>
+  <rect x="392" y="402" width="126" height="24" rx="12" fill="#7ADFC8"/>
+  <rect x="392" y="442" width="108" height="18" rx="9" fill="#B6CBC8"/>
+  <rect x="392" y="474" width="90" height="18" rx="9" fill="#B6CBC8" fill-opacity="0.75"/>
+  <path d="M676 378H1028" stroke="#FFD8AC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M676 426H1002" stroke="#C5D6D3" stroke-width="14" stroke-linecap="round"/>
+  <path d="M676 474H948" stroke="#9DF0DC" stroke-width="14" stroke-linecap="round"/>
+  <path d="M676 522H994" stroke="#C5D6D3" stroke-width="14" stroke-linecap="round"/>
+  <rect x="854" y="208" width="198" height="108" rx="18" fill="#173138" stroke="#FFB36B" stroke-opacity="0.35"/>
+  <text x="886" y="256" fill="#FFF2E3" font-family="Consolas, monospace" font-size="24">mobile view</text>
+  <path d="M900 284H1008" stroke="#7ADFC8" stroke-width="10" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="78" y1="60" x2="1116" y2="666" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102830"/>
+      <stop offset="1" stop-color="#2E1C16"/>
+    </linearGradient>
+  </defs>
+</svg>
